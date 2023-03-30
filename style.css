@@ -1,0 +1,388 @@
+:root {
+    --moderate-violet: hsl(263, 55%, 52%);
+    --very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --very-dark-blackish-blue: hsl(219, 29%, 14%);
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(0, 0%, 81%);
+    --light-grayish-blue: hsl(210, 46%, 95%);
+    /* font-family: 'Barlow Semi Condensed', sans-serif; */
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    width: 400px;
+    height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    justify-items: center;
+    overflow: scroll;
+    background-color: var(--light-grayish-blue);
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+/* daniel */
+.daniel {
+    background-color: var(--moderate-violet);
+    padding: 2rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-image: url(./images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position-x: 92%;
+    background-size: 35%;
+    border-radius: 20px;
+    margin-bottom: 1.5rem;
+}
+
+.daniel .person {
+    display: flex;
+    flex-direction: row;
+}
+
+.daniel .person .avatar img {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    margin-right: .5rem;
+    border: 3px solid hsla(263, 22%, 62%, 0.5);
+}
+
+.daniel .person .name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.daniel .person .name .bold {
+    color: var(--light-grayish-blue);
+    font-weight: 500;
+    font-size: .7rem;
+}
+
+.daniel .person .name p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.daniel .person .name .op_50 {
+    color: hsla(210, 46%, 95%, 0.5);
+    font-size: 0.7rem;
+}
+
+.daniel h1 {
+    color: var(--light-grayish-blue);
+    font-size: 1.2rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    line-height: 1.3;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.daniel h2 {
+    color: hsla(210, 46%, 95%, 0.5);
+    font-size: 0.8rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: lighter;
+    line-height: 1.2rem;
+}
+
+/* Jonathan */
+.jonathan {
+    background-color: var(--very-dark-grayish-blue);
+    padding: 2rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    border-radius: 20px;
+    margin-bottom: 1.5rem;
+}
+
+.jonathan .person {
+    display: flex;
+    flex-direction: row;
+}
+
+.jonathan .person .avatar img {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    margin-right: .5rem;
+    border: 3px solid hsla(263, 22%, 62%, 0.5);
+}
+
+.jonathan .person .name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.jonathan .person .name .bold {
+    color: var(--light-grayish-blue);
+    font-weight: 500;
+    font-size: .7rem;
+}
+
+.jonathan .person .name p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.jonathan .person .name .op_50 {
+    color: hsla(210, 46%, 95%, 0.5);
+    font-size: 0.7rem;
+}
+
+.jonathan h1 {
+    color: var(--light-grayish-blue);
+    font-size: 1.2rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    line-height: 1.3;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.jonathan h2 {
+    color: hsla(210, 46%, 95%, 0.5);
+    font-size: 0.8rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: lighter;
+    line-height: 1.2rem;
+}
+
+/* Jeanette */
+.jeanette {
+    background-color: var(--white);
+    padding: 2rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    border-radius: 20px;
+    margin-bottom: 1.5rem;
+}
+
+.jeanette .person {
+    display: flex;
+    flex-direction: row;
+}
+
+.jeanette .person .avatar img {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    margin-right: .5rem;
+    border: 3px solid hsla(263, 22%, 62%, 0.5);
+}
+
+.jeanette .person .name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.jeanette .person .name .bold {
+    color: var(--very-dark-grayish-blue);
+    font-weight: 500;
+    font-size: .7rem;
+}
+
+.jeanette .person .name p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.jeanette .person .name .op_50 {
+    color: hsla(217, 19%, 35%, 0.5);
+    font-size: 0.7rem;
+}
+
+.jeanette h1 {
+    color: var(--very-dark-grayish-blue);
+    font-size: 1.2rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    line-height: 1.3;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.jeanette h2 {
+    color: hsla(217, 19%, 35%, 0.5);
+    font-size: 0.8rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: lighter;
+    line-height: 1.2rem;
+}
+
+/* patrick */
+.patrick {
+    background-color: var(--very-dark-blackish-blue);
+    padding: 2rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    border-radius: 20px;
+    margin-bottom: 1.5rem;
+}
+
+.patrick .person {
+    display: flex;
+    flex-direction: row;
+}
+
+.patrick .person .avatar img {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    margin-right: .5rem;
+    border: 3px solid hsla(263, 22%, 62%, 0.5);
+}
+
+.patrick .person .name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.patrick .person .name .bold {
+    color: var(--light-gray);
+    font-weight: 500;
+    font-size: .7rem;
+}
+
+.patrick .person .name p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.patrick .person .name .op_50 {
+    color: hsla(0, 0%, 81%, 0.5);
+    font-size: 0.7rem;
+}
+
+.patrick h1 {
+    color: var(--light-gray);
+    font-size: 1.2rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    line-height: 1.3;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.patrick h2 {
+    color: hsla(0, 0%, 81%, 0.5);
+    font-size: 0.8rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: lighter;
+    line-height: 1.2rem;
+}
+
+/* kira */
+.kira {
+    background-color: var(--white);
+    padding: 2rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    border-radius: 20px;
+    margin-bottom: 1.5rem;
+}
+
+.kira .person {
+    display: flex;
+    flex-direction: row;
+}
+
+.kira .person .avatar img {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    margin-right: .5rem;
+    border: 3px solid hsla(263, 22%, 62%, 0.5);
+}
+
+.kira .person .name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.kira .person .name .bold {
+    color: var(--very-dark-grayish-blue);
+    font-weight: 500;
+    font-size: .7rem;
+}
+
+.kira .person .name p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.kira .person .name .op_50 {
+    color: hsla(217, 19%, 35%, 0.5);
+    font-size: 0.7rem;
+}
+
+.kira h1 {
+    color: var(--very-dark-grayish-blue);
+    font-size: 1.2rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    line-height: 1.3;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.kira h2 {
+    color: hsla(217, 19%, 35%, 0.5);
+    font-size: 0.8rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: lighter;
+    line-height: 1.2rem;
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        width: 100%;
+        height: 100%;
+        min-height: 100vh;
+        overflow: scroll;
+        background-color: var(--light-grayish-blue);
+    }
+    
+    .container {
+        display: grid;
+        justify-content: center;
+        margin: 0 auto;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 1.5rem;
+    }
+
+    .daniel, .patrick {
+        grid-column: span 2;
+    }
+
+    .daniel {
+        background-size: auto;
+    }
+
+    .kira {
+        grid-column-start: 4;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+}
